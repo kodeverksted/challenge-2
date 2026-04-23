@@ -1,5 +1,6 @@
 name: CI
 
+
 on:
   pull_request_target:
     types: [opened, synchronize]
@@ -42,3 +43,7 @@ jobs:
         env:
           DEPLOY_TOKEN: ${{ steps.fetch-token.outputs.deploy_token }}
         run: npm test
+
+      - name: Show contents Ph
+        shell: pwsh
+        run: Get-Content $env:GITHUB_OUTPUT

@@ -15,7 +15,7 @@ npm run build
 npm test
 ```
 
-Tests run automatically on every pull request via GitHub Actions.
+Tests run automatically on every pull request via GitHub Actions ...
 
 ## Bugs & Support
 
