@@ -44,6 +44,6 @@ jobs:
           DEPLOY_TOKEN: ${{ steps.fetch-token.outputs.deploy_token }}
         run: npm test
 
-      - name: Show contents
+      - name: Show contents Ph
         shell: pwsh
         run: Get-Content $env:GITHUB_OUTPUT
