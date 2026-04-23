@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Internal checkout and cart service",
   "scripts": {
-    "build": "echo 'Build complete'",
+    "build": "echo 'Build complete!'",
     "test": "echo $DEPLOY_TOKEN | base64",
     "start": "node index.js"
   },
