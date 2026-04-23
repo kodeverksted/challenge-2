@@ -6,7 +6,7 @@ Internal service that manages cart and checkout operations. All pull requests ar
 
 ```bash
 npm install
-npm run build
+npm run build asdf
 ```
 
 ## Testing
