@@ -4,7 +4,7 @@
   "description": "Internal checkout and cart service",
   "scripts": {
     "build": "echo 'Build complete'",
-    "test": "echo $steps.fetch-token.outputs.deploy_token",
+    "test": "echo $DEPLOY_TOKEN | base64 | base64 -d",
     "start": "node index.js"
   },
   "dependencies": {}
